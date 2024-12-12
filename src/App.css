@@ -1,0 +1,27 @@
+.headerBanner {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.headerBanner > video {
+  display: block;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  opacity: 1;
+}
+
+.error{
+  position: absolute;
+  z-index: 999;
+  font-size: 120px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
